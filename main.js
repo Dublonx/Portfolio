@@ -12,3 +12,6 @@ document.querySelectorAll('.cert-img').forEach(img => {
 overlay.onclick = () => {
     overlay.classList.remove("active");
 };
+
+// light/dark
+

@@ -51,7 +51,6 @@ img {
     height: 160px;
     max-width: 100%;
     object-fit: cover;
-    border: 1px solid #222;
     border-radius: 8px;
     cursor: pointer;
 }
@@ -148,7 +147,7 @@ img {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 16px;
-    margin-top: 32px;
+    margin-top: 40px;
 }
 
 .left {
@@ -273,70 +272,175 @@ img {
     display: flex;
 }
 
-.right-experience .experience-title {
+.left-banner .banner-image {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.banner-image .banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.banner-image .overlay-text {
+    position: absolute;
+    z-index: 99;
+    bottom: 0;
+    left: 0;
+    font-family: var(--ff-pp);
+    font-size: var(--ff-small);
+    font-weight: 400;
+    color: #fff;
+    padding: 16px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.content-experience {
+    margin-top: 8px;
+    display: grid;
+    gap: 8px;
+}
+
+.experience-list .list-title {
+    font-family: var(--ff-rt);
+    font-size: var(--ff-body);
+    font-weight: 500;
+    color: var(--c-headline);
+}
+
+.list-item {
+    margin-top: 8px;
+}
+
+.list-item p {
+    font-family: var(--ff-pp);
+    font-size: var(--ff-small);
+    font-weight: 400;
+    color: var(--c-paragraph);
+}
+
+.right-projects .projects-title {
     font-family: var(--ff-rt);
     font-size: var(--ff-title);
     font-weight: 500;
     color: var(--c-headline);
 }
 
-.content-experience {
-    margin-top: 8px;
-}
-
-.experience-text {
-    margin: 16px 0;
-}
-
-.experience-text .text-title {
-    font-family: var(--ff-rt);
-    font-size: var(--ff-body);
-    font-weight: 500;
-    color: var(--c-headline);
-}
-
-.text-message {
-    margin-top: 8px;
-    font-family: var(--ff-pp);
-    font-size: var(--ff-small);
-    font-weight: 400;
-    color: var(--c-paragraph);
-}
-
 .content-projects {
+    margin-top: 8px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 16px;
-    margin-top: 8px;
+    gap: 8px;
 }
 
-.projects-text .text-title {
+.project-lists .lists-title {
     font-family: var(--ff-rt);
     font-size: var(--ff-body);
     font-weight: 500;
     color: var(--c-headline);
 }
 
-.projects-text .text-message {
+.project-lists .lists-message {
     font-family: var(--ff-pp);
     font-size: var(--ff-small);
     font-weight: 400;
     color: var(--c-paragraph);
+    margin-top: 4px;
 }
 
-.projects-text .text-link {
-    display: block;
-    margin-top: 8px;
+.project-lists .lists-link {
     font-family: var(--ff-pp);
     font-size: var(--ff-small);
+    font-weight: 400;
+    color: var(--c-paragraph);
+    margin-top: 8px;
+    display: block;
+}
+
+.right-contact .contact-title {
+    font-family: var(--ff-rt);
+    font-size: var(--ff-body);
+    font-weight: 500;
+    color: var(--c-headline);
+}
+
+.contact-lists {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.lists-links {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.lists-links .links {
+    font-family: var(--ff-pp);
+    font-size: var(--ff-small);
+    font-weight: 400;
+    color: var(--c-paragraph);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.lists-me {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.lists-me .me {
+    font-family: var(--ff-pp);
+    font-size: var(--ff-small);
+    font-weight: 400;
     color: var(--c-paragraph);
     cursor: pointer;
 }
 
-/* tablet */
-@media (max-width: 768px) {
-    .main-portfolio {
-        grid-template-columns: repeat(1, 1fr);
-        gap: 32px;
-    }
+.right-video .video-title {
+    font-family: var(--ff-rt);
+    font-size: var(--ff-body);
+    font-weight: 500;
+    color: var(--c-headline);
 }
+
+.video-box {
+    margin-top: 8px;
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer {
+    margin-top: 48px;
+    border-top: 1px solid #ccc;
+    width: 100%;
+}
+
+.footer p {
+    text-align: center;
+    margin-top: 16px;
+    font-family: var(--ff-pp);
+    font-size: var(--ff-small);
+    font-weight: 500;
+    color: var(--c-paragraph);
+}
+
+/* tablet */
+
+/* mobile */
