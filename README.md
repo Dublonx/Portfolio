@@ -6,4 +6,4 @@ A simple and minimalist Portfolio inspired by `Bryl Lim`.
 
 ![Desktop](Screenshots/desktop.png)
 ![Tablet](Screenshots/tablet.png)
-![Mobile](Screenshots/monile.png)
+![Mobile](Screenshots/mobile.png)
