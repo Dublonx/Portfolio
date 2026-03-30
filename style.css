@@ -35,6 +35,7 @@ body {
 /* portfolio */
 .wrapper-portfolio {
     max-width: 1100px;
+    width: 100%;
     margin: auto;
     padding: 20px;
 }
@@ -102,6 +103,22 @@ img {
     width: 300px;
 }
 
+.content-cta .cta-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--c-neutral);
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--ff-pp);
+    font-weight: 600;
+    font-size: var(--ff-small);
+}
+
 .content-cta button {
     width: 100%;
     height: 40px;
@@ -116,7 +133,9 @@ img {
 }
 
 .content-cta button:hover,
-.content-cta button:active {
+.content-cta button:active,
+.content-cta .cta-cv:hover,
+.content-cta .cta-cv:active {
     background-color: var(--c-accent);
 }
 
@@ -442,5 +461,85 @@ img {
 }
 
 /* tablet */
+@media screen and (max-width: 768px) {
+    .wrapper-portfolio {
+        padding: 16px;
+    }
+
+    .header {
+        gap: 1.5rem;
+    }
+
+    .main-portfolio {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .content-message .message-paragraph {
+        font-size: var(--ff-small);
+    }
+}
 
 /* mobile */
+@media screen and (max-width: 420px) {
+    .wrapper-portfolio {
+        padding: 12px;
+    }
+
+    .main-portfolio {
+        margin-top: 24px;
+    }
+
+    .header {
+        gap: .5rem;
+    }
+
+    img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .content-name .name {
+        font-size: var(--ff-title);
+    }
+
+    .content-location .location {
+        font-size: var(--ff-small);
+    }
+
+    .content-message .message-paragraph {
+        font-size: var(--ff-small);
+    }
+
+    .content-cta {
+        width: 100%;
+    }
+
+    .content-cta .cta-cv,
+    .content-cta button {
+        width: 100%;
+        height: 40px;
+        font-size: var(--ff-small);
+    }
+
+    .header-toggle {
+        position: fixed;
+        z-index: 99;
+        bottom: 0;
+        right: 0;
+        padding: 24px 16px;
+    }
+
+    .card {
+        padding: 8px 12px;
+        font-size: var(--ff-small);
+    }
+
+    .certifications-list {
+        width: 100%;
+    }
+
+    .list-cert {
+        display: block;
+        margin: 0 auto;
+    }
+}
