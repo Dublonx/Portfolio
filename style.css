@@ -9,18 +9,31 @@
 }
 
 body {
-    background-color: #fff;
+    background-color: var(--c-primary);
+    transition: .5s ease;
+}
+
+body.dark-mode {
+    --c-primary: #0f0e1a;
+    --c-secondary: #d1d1e9;
+    --c-accent: #6347eb;
+    --c-neutral: #3c19e6;
+    --c-headline: #fffffe;
+    --c-paragraph: #a7a9be;
+    --c-box: #0f0e17;
+    transition: .5s ease;
 }
 
 /* css variables */
 :root {
     /* colors */
-    --c-primary: #fffffe;
+    --c-primary: #ffffff;
     --c-secondary: #d1d1e9;
     --c-accent: #6347eb;
     --c-neutral: #3c19e6;
     --c-headline: #2b2c34;
     --c-paragraph: #2b2c34;
+    --c-box: #f5f7f8;
     /* fonts */
     --ff-rt: "Roboto", sans-serif;
     --ff-pp: "Poppins", sans-serif;
@@ -30,6 +43,14 @@ body {
     --ff-title: 1.2rem;
     --ff-body: 1rem;
     --ff-small: 0.833rem;
+}
+
+/* updated : 3/31/26 */
+.box {
+    background-color: var(--c-box);
+    border-radius: 4px;
+    padding: 16px 12px;
+    cursor: pointer;
 }
 
 /* portfolio */
@@ -165,13 +186,13 @@ img {
 .main-portfolio {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    gap: 16px;
+    gap: 24px;
     margin-top: 40px;
 }
 
 .left {
     display: grid;
-    gap: 16px;
+    gap: 24px;
 }
 
 .left-about .about-title,
@@ -541,5 +562,9 @@ img {
     .list-cert {
         display: block;
         margin: 0 auto;
+    }
+
+    .content-projects {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
