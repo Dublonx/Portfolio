@@ -6,7 +6,3 @@ A simple and minimalist Portfolio inspired by `Bryl Lim`.
 
 ![Light Mode](Screenshots/light.png)
 ![Dark Mode](Screenshots/dark.png)
-
-## Live Demo
-
-[Jm Dublon — Portfolio](https://dublonx.github.io/Portfolio)
