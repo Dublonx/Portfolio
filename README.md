@@ -4,6 +4,5 @@ A simple and minimalist Portfolio inspired by `Bryl Lim`.
 
 ## Screenshots
 
-![Desktop](Screenshots/desktop.png)
-![Tablet](Screenshots/tablet.png)
-![Mobile](Screenshots/mobile.png)
+![Light Mode](Screenshots/light.png)
+![Dark Mode](Screenshots/dark.png)
