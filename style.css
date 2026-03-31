@@ -50,7 +50,6 @@ body.dark-mode {
     background-color: var(--c-box);
     border-radius: 4px;
     padding: 16px 12px;
-    cursor: pointer;
 }
 
 /* portfolio */
@@ -67,7 +66,7 @@ body.dark-mode {
     gap: 2rem;
 }
 
-img {
+.profile-pic {
     display: block;
     width: 160px;
     height: 160px;
@@ -246,6 +245,7 @@ img {
 .card-list {
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
     gap: .5rem;
     margin-top: 8px;
 }
@@ -327,7 +327,6 @@ img {
 
 .banner-image .overlay-text {
     position: absolute;
-    z-index: 99;
     bottom: 0;
     left: 0;
     font-family: var(--ff-pp);
@@ -470,11 +469,11 @@ img {
     margin-top: 48px;
     border-top: 1px solid #ccc;
     width: 100%;
+    padding: 16px 0;
 }
 
 .footer p {
     text-align: center;
-    margin-top: 16px;
     font-family: var(--ff-pp);
     font-size: var(--ff-small);
     font-weight: 500;
@@ -512,11 +511,16 @@ img {
 
     .header {
         gap: .5rem;
+        flex-direction: column;
     }
-
-    img {
-        width: 130px;
-        height: 130px;
+    
+    .profile-pic {
+        margin-right: auto;
+    }
+    
+    .header-toggle i {
+        width: 48px;
+        height: 48px;
     }
 
     .content-name .name {
