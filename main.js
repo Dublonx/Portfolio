@@ -27,3 +27,21 @@ toggleBtn.addEventListener("click", () => {
         toggleBtn.className = "fa-solid fa-moon";
     }
 })
+
+// back to top
+const ctaTop = document.querySelector('#ctaTop');
+
+window.addEventListener("scroll", () => {
+    if (window.scrollY > 300) {
+        ctaTop.classList.add("show");
+    } else {
+        ctaTop.classList.remove("show");
+    }
+});
+
+ctaTop.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});

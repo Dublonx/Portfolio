@@ -45,11 +45,34 @@ body.dark-mode {
     --ff-small: 0.833rem;
 }
 
-/* updated : 3/31/26 */
+/* updated : 3/31/26 / 4/1/26 */
 .box {
     background-color: var(--c-box);
     border-radius: 4px;
     padding: 16px 12px;
+}
+
+.cta-top {
+    position: fixed;
+    z-index: 99;
+    bottom: 32px;
+    right: 24px;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+    background-color: var(--c-neutral);
+    color: #fff;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.cta-top.show {
+    opacity: 1;
+    visibility: visible;
 }
 
 /* portfolio */
@@ -557,9 +580,8 @@ hr {
     .header-toggle {
         position: fixed;
         z-index: 99;
-        bottom: 0;
-        right: 0;
-        padding: 24px 16px;
+        bottom: 88px;
+        right: 24px;
     }
 
     .card {
