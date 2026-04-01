@@ -288,6 +288,14 @@ body.dark-mode {
     transition: transform .5s ease;
 }
 
+hr {
+    width: 100%;
+    height: 1px;
+    outline: none;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
 #overlay {
     display: none;
     position: fixed;
