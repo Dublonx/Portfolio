@@ -357,7 +357,7 @@ hr {
     width: 100%;
     height: auto;
     object-fit: cover;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .banner-image .overlay-text {
@@ -497,7 +497,7 @@ hr {
 .video-box video {
     width: 100%;
     height: auto;
-    cursor: pointer;
+    /* cursor: pointer; */
 }
 
 .footer {
