@@ -1,6 +1,6 @@
 # Personal Portfolio
 
-A simple and minimalist Portfolio inspired by `Bryl Lim`.
+A simple and minimalist Portfolio inspired by sir, `Bryl Lim`!
 
 ## Screenshots
 
