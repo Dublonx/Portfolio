@@ -45,3 +45,12 @@ ctaTop.addEventListener("click", () => {
         behavior: "smooth",
     });
 });
+
+// loader
+setTimeout(() => {
+    const loader = document.querySelector('.loader');
+    const portfolio = document.querySelector('.wrapper-portfolio');
+
+    loader.style.display = "none";
+    portfolio.style.display = "block";
+}, 5000);
