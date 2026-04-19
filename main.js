@@ -53,4 +53,4 @@ setTimeout(() => {
 
     loader.style.display = "none";
     portfolio.style.display = "block";
-}, 5000);
+}, 3000);
