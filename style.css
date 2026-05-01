@@ -58,7 +58,7 @@ body.dark-mode {
 
 .cta-top {
     position: fixed;
-    z-index: 99;
+    z-index: 1;
     bottom: 32px;
     right: 24px;
     width: 48px;
@@ -329,7 +329,6 @@ body.dark-mode {
     width: 100px;
     height: auto;
     object-fit: cover;
-    cursor: pointer;
     transition: transform .5s ease;
 }
 

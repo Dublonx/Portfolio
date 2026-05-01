@@ -1,12 +1,22 @@
 # Personal Portfolio
 
-A simple and minimalist Portfolio inspired by sir, `Bryl Lim`!
+A simple and minimalist portfolio website that i'd done. Inspired by sir, `Bryl Lim`.
 
-## Screenshots
+### Tech Stack
 
-![Light Mode](Screenshots/light.png)
-![Dark Mode](Screenshots/dark.png)
+- HTML5
+- CSS3
+- Vanila Javascript
 
-## Live Demo
+---
+
+### Project View
+
+![Light Mode](Screenshots/pf-light.png)
+![Dark Mode](Screenshots/pf-dark.png)
+
+---
+
+### Live Demo
 
 [Jm Dūblon — Portfolio](https://dublonx.github.io/Portfolio)
