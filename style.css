@@ -319,13 +319,14 @@ body.dark-mode {
 
 .certifications-list .list-cert {
     display: flex;
-    gap: .5rem;
+    gap: 1rem;
     flex-wrap: wrap;
 }
 
 .cert-img {
     display: block;
     border: 1px solid #222;
+    border-radius: 8px;
     width: 100px;
     height: auto;
     object-fit: cover;
@@ -517,7 +518,6 @@ hr {
     /* cursor: pointer;
 } */
 
-
 .footer {
     margin-top: 48px;
     border-top: 1px solid #ccc;
@@ -618,6 +618,11 @@ hr {
     .list-cert {
         display: block;
         margin: 0 auto;
+    }
+    
+    .cert-img {
+        width: 100%;
+        height: auto;
     }
 
     .content-projects {
