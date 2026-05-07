@@ -20,8 +20,8 @@ body {
 body.dark-mode {
     --c-primary: #0f0e1a;
     --c-secondary: #d1d1e9;
-    --c-accent: #6347eb;
-    --c-neutral: #3c19e6;
+    --c-accent: hsl(250, 80%, 70%);
+    --c-neutral: hsl(250, 80%, 60%);
     --c-headline: #fffffe;
     --c-paragraph: #a7a9be;
     --c-box: #0f0e17;
