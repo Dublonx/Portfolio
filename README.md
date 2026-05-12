@@ -12,8 +12,9 @@ A simple and minimalist portfolio website that i'd done. Inspired by sir, `Bryl 
 
 ### Project View
 
-![Light Mode](Screenshots/pf-light.png)
-![Dark Mode](Screenshots/pf-dark.png)
+![Light Mode](Assets/Screenshots/pf-light.png)
+
+![Dark Mode](Assets/Screenshots/pf-dark.png)
 
 ---
 
