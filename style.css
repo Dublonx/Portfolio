@@ -455,6 +455,7 @@ hr {
     color: var(--c-paragraph);
     margin-top: 8px;
     display: block;
+    text-decoration: underline;
 }
 
 .right-contact .contact-title {
