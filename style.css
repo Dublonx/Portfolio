@@ -484,7 +484,6 @@ hr {
     font-weight: 400;
     color: var(--c-paragraph);
     text-decoration: none;
-    cursor: pointer;
 }
 
 .lists-me {
@@ -500,23 +499,6 @@ hr {
     color: var(--c-paragraph);
     cursor: pointer;
 }
-
-/* .right-video .video-title {
-    font-family: var(--ff-rt);
-    font-size: var(--ff-body);
-    font-weight: 500;
-    color: var(--c-headline);
-}
-
-.video-box {
-    margin-top: 8px;
-}
-
-.video-box video {
-    width: 100%;
-    height: auto;
-    /* cursor: pointer;
-} */
 
 .footer {
     margin-top: 48px;
