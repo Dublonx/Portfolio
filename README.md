@@ -1,23 +1,41 @@
-# Personal Portfolio
+# Portfolio Website
 
-A simple and minimalist portfolio website that i'd done. Inspired by sir, `Bryl Lim`.
+A modern and responsive portfolio website designed to showcase my projects, skills, and my professional experience.
 
-### Tech Stack
+## 📸 Preview
+
+![Portfolio Website](Assets/Screenshots/mockup.png)
+
+## ✨ Features
+
+- Responsive design for all devices
+- Modern and clean ui
+- Project showcase section
+- Skills and technologies section
+- Contact form
+- Dark mode toggle
+
+## ⚒️ Built With
 
 - HTML5
 - CSS3
-- Vanila Javascript
+- Vanilla Javascript
 
----
+## 📂 Project Structure
 
-### Project View
+```
+Portfolio/
+├── Assets/
+│   ├── Images/
+│   └── Screenshots/
+├── index.html
+├── license
+├── main.js
+├── readme.md
+├── style.css
+```
 
-![Light Mode](Assets/Screenshots/pf-light.png)
+## 🚀 Clone the Repository
 
-![Dark Mode](Assets/Screenshots/pf-dark.png)
-
----
-
-### Live Demo
-
-[Jm Dūblon — Portfolio](https://dublonx.github.io/Portfolio)
+```bash
+git clone https://github.com/Dublonx/Portfolio.git
