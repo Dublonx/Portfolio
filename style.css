@@ -618,3 +618,7 @@ hr {
     opacity: 1;
     visibility: visible;
 }
+
+.no-scroll {
+    overflow: hidden;
+}
