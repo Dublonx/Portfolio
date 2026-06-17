@@ -6,11 +6,13 @@ document.querySelectorAll('.cert-img').forEach(img => {
     img.onclick = () => {
         overlay.classList.add("active");
         overlayImg.src = img.src;
+        body.classList.add("no-scroll");
     };
 });
 
 overlay.onclick = () => {
     overlay.classList.remove("active");
+    body.classList.remove("no-scroll");
 };
 
 // light/dark
